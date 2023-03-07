@@ -21,7 +21,7 @@ app.post('/events', async (reg, res) => {
       }
     }).catch((err) => {
       console.log(err.message);
-    });;
+    });
   }
 });
 
